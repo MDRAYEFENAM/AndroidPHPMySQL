@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bgapp"
+    tools:context=".MainServiceSelectPage">
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#56585A"
+        android:textColor="#FFFFFF"
+        android:id="@+id/buttonOne"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="Service Giver" />
+
+    <Button
+        android:background="#56585A"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/buttonOne"
+        android:id="@+id/buttonTwo"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="Service Taker" />
+
+</RelativeLayout>

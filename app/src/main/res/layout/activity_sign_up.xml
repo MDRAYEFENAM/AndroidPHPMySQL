@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#F8F3F3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Usernme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/editTextUsername"
+            android:hint="Enter username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#F8F3F3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword"
+            android:hint="Enter password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#F8F3F3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/editTextEmail"
+            android:inputType="textEmailAddress"
+            android:hint="Enter email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="#56585A"
+            android:textColor="#FFFFFF"
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_height="50dp"
+            android:text="Register User" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_below="@+id/LinearLayout"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#F7F6F8"
+        android:text="Already Register? \n Click Here to Login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
